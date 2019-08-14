@@ -1,0 +1,19 @@
+Package: icinga2-zulip-notifications
+Version: 0.1.0
+License: Apache License Version 2.0, January 2004
+Vendor: https://www.kevinkoellmann.de/
+Architecture: all
+Maintainer: Kevin Köllmann <mail@kevinkoellmann.de>
+Installed-Size: 6
+Depends: icinga2, python
+Homepage: https://github.com/koelle25/icinga2-zulip-notifications
+Priority: extra
+Section: universe/admin
+Filename: pool/main/i/icinga2-zulip-notifications/icinga2-zulip-notifications_0.1.0_all.deb
+Size: 3026
+SHA256: bf5568443ae4939aa72d1a1929b75dda8ea191bc7962b9957877449e25ba4757
+SHA1: 2ad5b768f513dc29181c84c8ec0af9582f9204bd
+MD5sum: 7b1aaf38f27fc261db5e5ca99cd223ff
+Description: Icinga2 notification integration with Zulip
+Bugs: https://github.com/koelle25/icinga2-zulip-notifications/issues
+
