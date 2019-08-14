@@ -205,17 +205,12 @@ to test the notifications manually.
 
 Usual procedure for us to test the plugin is to
 
-* configure the `src/zulip-notifications/zulip-notifications-configuration.conf` and `src/zulip-notifications/zuliprc` files according to documentation
-* configure a test `src/templates.conf` which contains the zulip-notifications enabled for host and/or service
-* run the `jordan/icinga2` with an empty volume at first
-* copy the configurations to relevant directories
-* restart the container
+* configure a `test/conf.d/zulip-notifications/zuliprc` file according to documentation above
+* run `test/run.sh`
 
 ```bash
- docker run -p 8081:80 --name zulip-enabled-icinga2 -v $PWD/icinga2-docker-volume:/etc/icinga2 -idt jordan/icinga2:latest
- docker cp src/templates.conf zulip-enabled-icinga2:/etc/icinga2/conf.d/
- docker cp src/zulip-notifications zulip-enabled-icinga2:/etc/icinga2/conf.d/
- docker restart zulip-enabled-icinga2
+ cp test/conf.d/zulip-notifications/zuliprc.example test/conf.d/zulip-notifications/zuliprc
+ ./test/run.sh
 ```
 
 after that navigate to `http://localhost:8081/icingaweb2` and try out some notifications.
@@ -237,7 +232,7 @@ Use the following grep for troubleshooting:
 
 ## Credits
 - [Nune Isabekyan](https://github.com/nisabek) for her work on [icinga2-slack-notifications](https://github.com/nisabek/icinga2-slack-notifications)
-- [Zulip](https://zulipchat.com) for their native [Nagios integration plugin](https://zulipchat.com/integrations/doc/nagios)
+- [Zulip](https://zulipchat.com) for their native [Nagios integration](https://zulipchat.com/integrations/doc/nagios)
 
 ## Useful links
 - [Create a Zulip Bot](https://zulipchat.com/help/add-a-bot-or-integration)
