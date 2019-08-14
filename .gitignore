@@ -3,3 +3,4 @@ zulip-notifications-user-configuration.conf
 .idea/
 .vagrant/
 target
+zulip-notifications.zip
