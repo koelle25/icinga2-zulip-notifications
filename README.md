@@ -60,12 +60,12 @@ This will create the plugin files in the correct `icinga2` conf directory.
 
  `git clone git@github.com:koelle25/icinga2-zulip-notifications.git /etc/icinga2/conf.d/`
 
-2. Use the `zulip-notifications-user-configuration.conf.template` file as reference to configure your Zulip Site URL and Icinga2 Base URL to create your own
+2. Use the `zulip-notifications-user-configuration.conf.template` file as reference to configure your Icinga2 Base URL to create your own
  `zulip-notifications-user-configuration.conf`
 
  `cp /etc/icinga2/conf.d/zulip-notifications/zulip-notifications-user-configuration.conf.template /etc/icinga2/conf.d/zulip-notifications/zulip-notifications-user-configuration.conf`
 
-3. Do the same for the `zuliprc.example` file
+3. Do the same for the `zuliprc.example` file to configure your Zulip Site URL and Bot credentials
 
  `cp /etc/icinga2/conf.d/zulip-notifications/zuliprc.example /etc/icinga2/conf.d/zulip-notifications/zuliprc`
 
@@ -205,7 +205,7 @@ to test the notifications manually.
 
 Usual procedure for us to test the plugin is to
 
-* configure the `src/zulip-notifications/zulip-notifications-configuration.conf` file according to documentation
+* configure the `src/zulip-notifications/zulip-notifications-configuration.conf` and `src/zulip-notifications/zuliprc` files according to documentation
 * configure a test `src/templates.conf` which contains the zulip-notifications enabled for host and/or service
 * run the `jordan/icinga2` with an empty volume at first
 * copy the configurations to relevant directories
