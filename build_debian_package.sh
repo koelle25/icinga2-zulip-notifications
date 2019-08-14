@@ -2,7 +2,7 @@
 set -u
 set -e
 
-VERSION='0.1.0'
+VERSION='1.0.0'
 DEBUG='false'
 
 clean() {
