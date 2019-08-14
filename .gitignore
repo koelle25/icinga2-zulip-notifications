@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+zulip-notifications-user-configuration.conf
+.idea/
+.vagrant/
+target

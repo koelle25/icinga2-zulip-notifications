@@ -1,0 +1,8 @@
+Origin: icinga2-zulip-notifications
+Label: icinga2-zulip-notifications Github
+Suite: stable
+Codename: general
+Architectures: amd64 i386
+Components: main
+Description: icinga2-zulip-notifications deb repository
+SignWith: yes

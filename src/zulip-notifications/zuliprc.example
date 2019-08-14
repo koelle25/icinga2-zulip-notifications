@@ -1,0 +1,4 @@
+[api]
+email=<YOUR BOT EMAIL ADDRESS>, e.g. icinga-bot@im.yourcompany.com
+key=<YOUR BOT KEY>, e.g. AAAAABBBBBCCCCCDDDDDEEEEEFFFFFGG
+site=<YOUR ZULIP SITE URL>, e.g. https://im.yourcompany.com

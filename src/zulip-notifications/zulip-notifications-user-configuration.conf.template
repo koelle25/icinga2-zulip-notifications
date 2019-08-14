@@ -1,0 +1,13 @@
+template Notification "zulip-notifications-user-configuration" {
+    import "zulip-notifications-default-configuration"
+
+    vars.zulip_notifications_icinga2_base_url = "<YOUR ICINGA2 BASE URL>, e.g. http://icinga-web.yourcompany.com/icingaweb2"
+}
+
+template Notification "zulip-notifications-user-configuration-hosts" {
+    import "zulip-notifications-default-configuration-hosts"
+}
+
+template Notification "zulip-notifications-user-configuration-services" {
+    import "zulip-notifications-default-configuration-services"
+}
