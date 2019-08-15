@@ -20,11 +20,11 @@ Also available on <a href="https://exchange.icinga.com/koelle25/icinga2-zulip-no
   <img src="https://github.com/koelle25/icinga2-zulip-notifications/raw/master/docs/Notification-Examples.png" width="600">
 </p>
 
-<!--* Mobile Icinga monitoring alerts as well:
+* Mobile Icinga monitoring alerts as well:
 
 <p align="center">
   <img src="https://github.com/koelle25/icinga2-zulip-notifications/raw/master/docs/Notification-Examples-mobile.png" width="400">
-</p>-->
+</p>
 
 * Notifications inside Zulip about your Host and Service state changes
 * In case of failure get notified with the nicely-formatted output of the failing check
