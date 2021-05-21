@@ -39,7 +39,7 @@ Also available on <a href="https://exchange.icinga.com/koelle25/icinga2-zulip-no
 We use [reprepro](https://mirrorer.alioth.debian.org/) to distribute our package from github.
 You would need to install `apt-transport-https` that supports adding an `https` based repository to the debian repo list.
 
-here are the steps to perform:
+Here are the steps to perform (be sure to use `sudo` if you are not _root_):
 
 ```
 apt-get install -y apt-transport-https
