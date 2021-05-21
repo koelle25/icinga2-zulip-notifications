@@ -43,7 +43,7 @@ here are the steps to perform:
 
 ```
 apt-get install -y apt-transport-https
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 95a6d27d7b8f41f1
+apt-key adv --keyserver hkps://keys.openpgp.org --recv-keys 5bacda73b7ea9e028365cbc6fe8ea795f9f4b44e
 add-apt-repository "deb https://raw.githubusercontent.com/koelle25/icinga2-zulip-notifications/master/reprepro general main"
 apt-get update
 ```
@@ -240,4 +240,3 @@ Use the following grep for troubleshooting:
 - [NotificationCommand of Icinga2](https://icinga.com/docs/icinga2/latest/doc/09-object-types/#notificationcommand)
 - [Overriding template definitions of Icinga2](https://icinga.com/docs/icinga2/latest/doc/03-monitoring-basics/#multiple-templates)
 - [Dockerized Icinga2](https://hub.docker.com/r/jordan/icinga2/)
-

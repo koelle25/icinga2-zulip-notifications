@@ -11,9 +11,9 @@ Priority: extra
 Section: universe/admin
 Filename: pool/main/i/icinga2-zulip-notifications/icinga2-zulip-notifications_1.0.0_all.deb
 Size: 3062
-SHA256: 91a192acc41827be6a3d3ca72c29216303a6cfa863f12ef07380f4d5852a563f
-SHA1: 00224fff41332bd0d203595180df747661f39eff
-MD5sum: eae5cc01db384fa209948ddb9188691f
+SHA256: 9115fe7a0f56b64d90663e7ff795128b34040efb8087c84bc724c23986472ced
+SHA1: 1456c6bb0165b1161b77027ff4c98ab319e959a6
+MD5sum: 3a5a872da14fb1884ec1d4a2bcba34fc
 Description: Icinga2 notification integration with Zulip
 Bugs: https://github.com/koelle25/icinga2-zulip-notifications/issues
 
