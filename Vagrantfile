@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
      apt-get install -y reprepro
 
      apt-get install -y apt-transport-https
-     apt-key adv --keyserver hkps://keys.openpgp.org --recv-keys 5bacda73b7ea9e028365cbc6fe8ea795f9f4b44e
+     apt-key adv --keyserver hkps://keys.openpgp.org --recv-keys 0155C4D10DF6BCD9999926ED1EF8A2E31219144C
      add-apt-repository "deb https://raw.githubusercontent.com/koelle25/icinga2-zulip-notifications/debian_repo_test/reprepro general main"
      apt-get update
   SHELL

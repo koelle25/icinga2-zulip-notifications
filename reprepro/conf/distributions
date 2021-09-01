@@ -5,4 +5,4 @@ Codename: general
 Architectures: amd64 i386
 Components: main
 Description: icinga2-zulip-notifications deb repository
-SignWith: yes
+SignWith: 0x1EF8A2E31219144C
